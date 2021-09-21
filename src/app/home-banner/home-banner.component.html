@@ -1,0 +1,84 @@
+<div class="banner" style="padding-top: 69px;">
+            <img style="height: 680px;width:100%" src="./assets/banner.jpg"/>  
+</div>  
+<div class="award" style="padding-left: 30px;padding-right: 30px;">
+    <div>
+        <br><br><br>
+        <h1 style="text-align:center;"> FURNITURE AS ART</h1>
+        <br>
+        <h1 style="text-align:center;"> SINCE 1991.</h1>
+    </div>
+    <owl-carousel [options]="SlideOptions"  [carouselClasses]="['owl-theme', 'sliding']" > 
+             
+        <!-- <div class="item" *ngFor="let img of Images">        -->
+       <div class="row">
+           <div class="col-md-6">
+            <img style="height: 680px;width:100%" src="./assets/furnitureAsArt1.jpg"/>  
+           </div>
+           <div class="col-md-6">
+            <img style="height: 680px;width:100%" src="./assets/furnitureAsArt2.jpg"/>  
+           </div>
+       </div>
+       <div class="row">
+        <div class="col-md-6">
+         <img style="height: 680px;width:100%" src="./assets/furnitureAsArt3.jpg"/>  
+        </div>
+        <div class="col-md-6">
+         <img style="height: 680px;width:100%" src="./assets/furnitureAsArt4.jpg"/>  
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+         <img style="height: 680px;width:100%" src="./assets/furnitureAsArt5.jpg"/>  
+        </div>
+        <div class="col-md-6">
+         <img style="height: 680px;width:100%" src="./assets/furnitureAsArt6.jpg"/>  
+        </div>
+    </div>
+        <!-- </div>   -->
+    </owl-carousel>  
+</div>  
+<div class="award" style="padding-left: 30px;padding-right: 30px;">
+    <owl-carousel [options]="SlideOptions"  [carouselClasses]="['owl-theme', 'sliding']" > 
+             
+        <div class="item" *ngFor="let img of Images">  
+         
+        <img style="height: 680px;width:100%" src={{img}}/>  
+       
+        </div>  
+    </owl-carousel>  
+</div>
+<div class="banner" style="padding-top: 20px;padding-left: 30px;padding-right: 30px">
+    <img style="height: 280px;width:100%" src="./assets/awards.jpg"/>  
+</div> 
+<div class="section4" style="padding: 8px;">
+   <div class="row">
+       <div class="col-md-4" style="padding-left:35px;">
+        <img style="height: 380px;width:100%" src="./assets/residential.jpg"/> 
+       </div>
+       <div class="col-md-4">
+        <img style="height: 380px;width:100%" src="./assets/commercial.jpg"/> 
+       </div>
+       <div class="col-md-4" style="padding-right:35px;">
+        <img style="height: 380px;width:100%" src="./assets/textile.jpg"/> 
+       </div>
+   </div>
+</div>
+<div class="section4" style="padding: 8px;">
+    <div class="row">
+        <div class="col-md-6" style="padding-left:35px;">
+         <img style="height: 690px;width:100%" src="./assets/residential.jpg"/> 
+        </div>
+        <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-12" style="padding-right: 35px;">
+                <img style="height: 340px;width:100%" src="./assets/commercial.jpg"/> 
+               </div>
+               <div class="col-md-12" style="padding-top:5px;padding-right: 35px;">
+                <img style="height: 340px;width:100%" src="./assets/textile.jpg"/> 
+               </div>
+        </div>
+    </div>
+    </div>
+ </div>
+       

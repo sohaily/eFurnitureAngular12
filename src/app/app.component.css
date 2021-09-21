@@ -1,0 +1,6 @@
+.sortable-handler {
+    touch-action: none;
+  }
+  ::ng-deep .margin-top-header{
+    margin-top: 2%;
+}

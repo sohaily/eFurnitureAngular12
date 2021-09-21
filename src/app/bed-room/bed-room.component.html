@@ -1,0 +1,35 @@
+<section id="portfolio-section" class="page bg-style1;" style="margin-top:2%">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="portfolio">
+                    <div class="page-header-wrapper">
+                        <div class="container">
+                            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                <h2>Catalogue</h2>
+                                <div class="devider"></div>
+                                <p class="subtitle">What we are proud of</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfoloi_content_area" >
+                        <div class="portfolio_content">
+                            <div class="row"  id="portfolio" >
+                                <div class="row" >
+                                <div class="col-xs-12 col-sm-6 appsDevelopment"  *ngFor="let img of Images">
+                                    <div class="portfolio_single_content" >
+                                        <img  src={{img.image}} height="400px" width="100%" alt="title"/>
+                                    </div>
+                                </div>
+                            </div>
+                              
+                               
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

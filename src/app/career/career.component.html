@@ -1,0 +1,11 @@
+<div class='container-fluid'>   
+    <owl-carousel [options]="SlideOptions"  [carouselClasses]="['owl-theme', 'sliding']" > 
+         
+      <div class="item" *ngFor="let img of Images">  
+      <div style="align-content: center">  
+       
+      <img style="height: 580px;width:100%" src={{img}}/>  
+      </div>  
+      </div>  
+      </owl-carousel>  
+    </div>  
